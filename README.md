@@ -31,7 +31,6 @@ system_engineering-devops/
 │ ├── 2-bring_me_home
 │ ├── 3-listfiles
 │ └── 4-listmorefiles
-├── 0x00-shell_basics/
 └── README.md
 ```
 ### ⚙️ Scripts Description
