@@ -25,6 +25,7 @@ system_engineering-devops/
 ├── 0x00-shell_basics/
 ├── 0x01-shell_permissions/
 ├── 0x02-shell_redirections/
+├── 0x03-shell_variables_expansions/
 └── README.md
 ```
 
@@ -52,6 +53,14 @@ Covers shell redirection and file handling:
 - Work with multiple files at once.
 - Delete files by type (`.js` files) and manage special filenames.
 - Save current directory state to a file.
+---
+### 🔹 [0x03-shell_variables_expansions](https://github.com/trxomv/system_engineering-devops/blob/main/0x03-shell_variables_expansions/README.md)
+This module explores the intricacies of Shell initialization files, variables, and expansions. Key concepts covered include:
+* **Aliases:** Creating and managing command aliases.
+* **Variables:** Understanding the difference between local and global (environment) variables, and how to use `export`.
+* **Path Manipulation:** Modifying the `$PATH` variable to add new directories.
+* **Arithmetic Expansions:** Performing mathematical operations (addition, division, exponentiation) directly within the shell using `$(( ))`.
+* **Shell Commands:** Utilizing `source`, `printenv`, `set`, and `type`.
 
 ---
 

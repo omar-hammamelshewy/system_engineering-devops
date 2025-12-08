@@ -40,6 +40,7 @@ system_engineering-devops/
 │ ├── 9-duplicate_last_line
 │ ├── 10-no_more_js
 │ └── README.md
+├── 0x03-shell_variables_expansions/
 └── README.md
 ```
 ### ⚙️ Scripts Description

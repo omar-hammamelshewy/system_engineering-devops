@@ -39,6 +39,7 @@ system_engineering-devops/
 │ ├── 13-change_group
 │ └── README.md
 ├── 0x02-shell_redirections/
+├── 0x03-shell_variables_expansions/
 └── README.md
 ```
 ### ⚙️ Scripts Description
