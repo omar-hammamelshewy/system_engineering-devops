@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# This script prints numbers from 1 to 20 with specific bad luck messages
+
 i=1
 
 while [ "$i" -le 20 ]

@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# This script checks properties of the file named 'school'
+
 if [ -e school ]; then
     echo "school file exists"
 
