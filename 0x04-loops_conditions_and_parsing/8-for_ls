@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+for item in *; do
+    # Skip hidden files
+    [ "$item" = "*" ] && continue
+    [ "${item:0:1}" = "." ] && continue
+
+    # Remove everything before the first dash
+    echo "${item#*-}"
+done
