@@ -41,6 +41,7 @@ system_engineering-devops/
 │ ├── 10-no_more_js
 │ └── README.md
 ├── 0x03-shell_variables_expansions/
+├── 0x04-loops_conditions_and_parsing/
 └── README.md
 ```
 ### ⚙️ Scripts Description

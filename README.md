@@ -26,6 +26,7 @@ system_engineering-devops/
 ├── 0x01-shell_permissions/
 ├── 0x02-shell_redirections/
 ├── 0x03-shell_variables_expansions/
+├── 0x04-loops_conditions_and_parsing/
 └── README.md
 ```
 
@@ -61,7 +62,14 @@ This module explores the intricacies of Shell initialization files, variables, a
 * **Path Manipulation:** Modifying the `$PATH` variable to add new directories.
 * **Arithmetic Expansions:** Performing mathematical operations (addition, division, exponentiation) directly within the shell using `$(( ))`.
 * **Shell Commands:** Utilizing `source`, `printenv`, `set`, and `type`.
+---
+### 🔹 [0x04-loops_conditions_and_parsing](https://github.com/trxomv/system_engineering-devops/blob/main/0x04-loops_conditions_and_parsing/README.md)
+This directory focuses on building logic and control flow in Bash Scripting. The tasks are designed to master fundamental programming constructs in the shell environment:
+* Looping Structures: Implementation and use of the three main loop types: `for`, `while`, and `until` to execute repetitive tasks efficiently.
+* Conditional Statements: Utilizing `if`, `elif`, `else`, and the `case` statement to enable scripts to make decisions and execute different behaviors based on specific conditions (such as iteration count or variable value).
+* File Testing and Parsing: Employing Bash's file test operators (e.g., `-e`, `-f`, `-s`) within conditional logic to check file properties (existence, type, size) and act upon the results.
 
+Goal: To create robust and dynamic Bash scripts capable of handling various scenarios through controlled flow and logic.
 ---
 
 ## 🚀 How to Use This Repository
