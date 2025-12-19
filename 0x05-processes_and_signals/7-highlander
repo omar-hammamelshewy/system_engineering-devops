@@ -1,10 +1,14 @@
 #!/usr/bin/env bash
 # This script runs indefinitely and handles SIGTERM
 
-trap 'echo "I am invincible!!!"' SIGTERM
+invincible() {
+    echo "I am invincible!!!"
+}
 
-while true
-do
+trap invincible SIGTERM
+
+while true; do
     echo "To infinity and beyond"
-    sleep 2
+    sleep 2 &
+    wait $!
 done
